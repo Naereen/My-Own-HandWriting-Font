@@ -1,0 +1,23 @@
+.noligatures {
+  -webkit-font-feature-settings: "liga" off, "hlig" off, "hist" off, "dlig" off,
+    "zero" off, "calt" off, "case" off, "swsh" off, "kern" off, "locl" off;
+  -moz-font-feature-settings: "liga" off, "hlig" off, "hist" off, "dlig" off,
+    "zero" off, "calt" off, "case" off, "swsh" off, "kern" off, "locl" off;
+  -ms-font-feature-settings: "liga" off, "hlig" off, "hist" off, "dlig" off,
+    "zero" off, "calt" off, "case" off, "swsh" off, "kern" off, "locl" off;
+  font-feature-settings: "liga" off, "hlig" off, "hist" off, "dlig" off,
+    "zero" off, "calt" off, "case" off, "swsh" off, "kern" off, "locl" off;
+}
+.withligatures {
+  -webkit-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
+    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+  -moz-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
+    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+  -ms-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
+    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+  font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on, "zero" on,
+    "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+}
+body {
+  font-size: 50%;
+}

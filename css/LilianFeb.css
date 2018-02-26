@@ -1,0 +1,8 @@
+@import url('//../fonts/LilianFeb.otf');
+
+body {
+	font-family: 'LilianFeb', sans-serif;
+}
+code, pre {
+	font-family: 'Inconsolata', 'Courier New', monospace;
+}

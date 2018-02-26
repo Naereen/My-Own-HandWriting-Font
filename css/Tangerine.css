@@ -1,0 +1,8 @@
+@import url('//fonts.googleapis.com/css?family=Tangerine|Incosolata');
+
+body {
+	font-family: 'Tangerine', sans-serif;
+}
+code, pre {
+	font-family: 'Inconsolata', 'Courier New', monospace;
+}

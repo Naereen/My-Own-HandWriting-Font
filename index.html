@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test of my own font</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- Different styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/Default.css" title="Default"/>
+    <link rel="stylesheet alternate" type="text/css" media="screen" href="css/Bootstrap.css" title="Bootstrap"/>
+    <link rel="stylesheet alternate" type="text/css" media="screen" href="css/Ubuntu.css" title="Ubuntu"/>
+    <link rel="stylesheet alternate" type="text/css" media="screen" href="css/Tangerine.css" title="Tangerine"/>
+    <link rel="stylesheet alternate" type="text/css" media="screen" href="css/LilianFeb.css" title="LilianFeb"/>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div>
+        <form>
+        <input type="submit" onclick="switch_style('Default');return false;" name="theme" value="Default Theme" id="Default">
+        <input type="submit" onclick="switch_style('Bootstrap');return false;" name="theme" value="Bootstrap Theme" id="Bootstrap">
+        <input type="submit" onclick="switch_style('Ubuntu');return false;" name="theme" value="Ubuntu Theme" id="Ubuntu">
+        <input type="submit" onclick="switch_style('Tangerine');return false;" name="theme" value="Tangerine Theme" id="Tangerine">
+        <input type="submit" onclick="switch_style('LilianFeb');return false;" name="theme" value="LilianFeb Theme" id="LilianFeb">
+        </form>
+    </div>
+    <div class="noligatures">
+        <h1>Test in English</h1>
+            <h2>Lowercase letters separated</h2>
+            a b c d e f g h i j k l m n o p q r s t u v x y z
+            <h2>Uppercase letters separated</h2>
+            A B C D E F G H I J K L M N O P Q R S T U V X Y Z
+            <h2>Lowercase letters</h2>
+            the quick brown fox jumps over the lazy dog
+            <h2>Uppercase letters</h2>
+            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+            <h2>Symbols</h2>
+            , ; : !
+            ? . / §
+            % *
+            ^ $
+            & ~ " # ' { ( [ - | _ \ @ ) ] = + }
+            <h2>Numbers</h2>
+            0 1 2 3 4 5 6 7 8 9
+            <h2>Ligatures?</h2>
+            ij
+            th
+            st
+            ct
+            et
+            ft
+            ff
+            fs
+            fi
+            fl
+            ffl
+            ffi
+        <hr>
+        <h1>Test en français</h1>
+            <h2>Lettres minuscules séparées</h2>
+            a b c d e f g h i j k l m n o p q r s t u v x y z
+            à é è ç ë ù ï ê ü î ô œ ÿ â û æ
+            <h2>Lettres majuscules séparées</h2>
+            A B C D E F G H I J K L M N O P Q R S T U V X Y Z
+            À É È Ç Ë Ù Ï Ê Ü Î Ô Œ Ÿ Â Û Æ
+            <h2>Lettres minuscules</h2>
+            dès noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !
+            voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis.
+            <h2>Lettres majuscules</h2>
+            DÈS NOËL OÙ UN ZÉPHYR HAÏ ME VÊT DE GLAÇONS WÜRMIENS JE DÎNE D’EXQUIS RÔTIS DE BŒUF AU KIR À L’AŸ D’ÂGE MÛR & CÆTERA !
+            VOIX AMBIGUË D'UN CŒUR QUI, AU ZÉPHYR, PRÉFÈRE LES JATTES DE KIWIS.
+    </div>
+    <br><hr><br>
+    <div class="withligatures">
+        <h1>Test in English</h1>
+            <h2>Lowercase letters separated</h2>
+            a b c d e f g h i j k l m n o p q r s t u v x y z
+            <h2>Uppercase letters separated</h2>
+            A B C D E F G H I J K L M N O P Q R S T U V X Y Z
+            <h2>Lowercase letters</h2>
+            the quick brown fox jumps over the lazy dog
+            <h2>Uppercase letters</h2>
+            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+            <h2>Symbols</h2>
+            , ; : !
+            ? . / §
+            % *
+            ^ $
+            & ~ " # ' { ( [ - | _ \ @ ) ] = + }
+            <h2>Numbers</h2>
+            0 1 2 3 4 5 6 7 8 9
+            <h2>Ligatures?</h2>
+            ij
+            th
+            st
+            ct
+            et
+            ft
+            ff
+            fs
+            fi
+            fl
+            ffl
+            ffi
+        <hr><hr>
+        <h1>Test en français</h1>
+            <h2>Lettres minuscules séparées</h2>
+            a b c d e f g h i j k l m n o p q r s t u v x y z
+            à é è ç ë ù ï ê ü î ô œ ÿ â û æ
+            <h2>Lettres majuscules séparées</h2>
+            A B C D E F G H I J K L M N O P Q R S T U V X Y Z
+            À É È Ç Ë Ù Ï Ê Ü Î Ô Œ Ÿ Â Û Æ
+            <h2>Lettres minuscules</h2>
+            dès noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !
+            voix ambiguë d'un cœur qui, au zéphyr, préfère les jattes de kiwis.
+            <h2>Lettres majuscules</h2>
+            DÈS NOËL OÙ UN ZÉPHYR HAÏ ME VÊT DE GLAÇONS WÜRMIENS JE DÎNE D’EXQUIS RÔTIS DE BŒUF AU KIR À L’AŸ D’ÂGE MÛR & CÆTERA !
+            VOIX AMBIGUË D'UN CŒUR QUI, AU ZÉPHYR, PRÉFÈRE LES JATTES DE KIWIS.
+    </div>
+    </div>
+    <br><hr><br>
+    <div>
+        <h1>Test of pre and code</h1>
+        <code>
+            This box contains some code in a &lt;code&gt; block.
+        </code>
+        <br>
+        <pre>
+            This box contains some code in a &lt;pre&gt; block.
+        </pre>
+    </div>
+    </body>
+</html>

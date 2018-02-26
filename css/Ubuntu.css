@@ -1,0 +1,8 @@
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: 'Ubuntu', Tahoma, sans-serif;
+}
+code, pre {
+    font-family: 'Ubuntu Mono', Menlo, Monaco, Consolas, "Courier New", monospace;
+}
