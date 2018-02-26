@@ -1,7 +1,15 @@
-@import url('//../fonts/LilianFeb.otf');
+/* @import url('//../fonts/LilianFeb.otf'); */
+
+@font-face {
+    font-family: "LilianFeb";
+    src: url('fonts/Lilianfeb-Regular.ttf')  format("truetype");
+         /* url('fonts/Lilianfeb-Regular.otf')  format("opentype"), */
+         /* url('fonts/Lilianfeb-Regular.woff') format('woff'); */
+}
 
 body {
-	font-family: 'LilianFeb', sans-serif;
+    font-family: 'LilianFeb', sans-serif;
+    font-size: 150%;
 }
 code, pre {
 	font-family: 'Inconsolata', 'Courier New', monospace;
