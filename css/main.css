@@ -10,17 +10,17 @@
 }
 .withligatures {
   -webkit-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
-    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+    "zero" on, "calt" on, "swsh" on, "kern" on, "locl" on;
   -moz-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
-    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+    "zero" on, "calt" on, "swsh" on, "kern" on, "locl" on;
   -ms-font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on,
-    "zero" on, "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+    "zero" on, "calt" on, "swsh" on, "kern" on, "locl" on;
   font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on, "zero" on,
-    "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
+    "calt" on, "swsh" on, "kern" on, "locl" on;
 }
 h1, h2 {
   font-family: sans-serif;
 }
 body {
-  font-size: 50%;
+  font-size: 200%;
 }
