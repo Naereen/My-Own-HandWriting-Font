@@ -1,7 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Arimo|Roboto|Inconsolata');
 
-body {
-	font-family: 'Helvetica Neue', HelveticaNeue, 'TeX Gyre Heros', TeXGyreHeros, Roboto, FreeSans, 'Nimbus Sans L', 'Liberation Sans', Arimo, Helvetica, Arial, sans-serif;
+p {
+	pfont-family: 'Helvetica Neue', HelveticaNeue, 'TeX Gyre Heros', TeXGyreHeros, Roboto, FreeSans, 'Nimbus Sans L', 'Liberation Sans', Arimo, Helvetica, Arial, sans-serif;
 }
 code, pre {
 	font-family: 'Inconsolata', 'Courier New', monospace;

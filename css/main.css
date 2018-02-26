@@ -18,6 +18,9 @@
   font-feature-settings: "liga" on, "hlig" on, "hist" on, "dlig" on, "zero" on,
     "calt" on, "case" on, "swsh" on, "kern" on, "locl" on;
 }
+h1, h2 {
+  font-family: sans-serif;
+}
 body {
   font-size: 50%;
 }
