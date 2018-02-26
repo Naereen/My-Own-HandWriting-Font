@@ -1,0 +1,16 @@
+@import url('//fonts.googleapis.com/css?family=Incosolata');
+
+@font-face {
+    font-family: "LilianFeb";
+    src: url('fonts/LilianFeb2-Regular.ttf')  format("truetype");
+         /* url('fonts/LilianFeb-Regular.otf')  format("opentype"), */
+         /* url('fonts/LilianFeb-Regular.woff') format('woff'); */
+}
+
+p {
+    font-family: 'LilianFeb', sans-serif;
+    font-size: 150%;
+}
+code, pre {
+	font-family: 'Inconsolata', 'Courier New', monospace;
+}
