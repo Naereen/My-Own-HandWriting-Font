@@ -1,4 +1,4 @@
-# My own hand-writting font
+# My own hand-writing font
 
 > See the demo, [here](https://naereen.github.io/My-Own-HandWritting-Font/).
 
