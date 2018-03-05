@@ -1,0 +1,16 @@
+@import url('//fonts.googleapis.com/css?family=Incosolata');
+
+@font-face {
+    font-family: "LilianMar";
+    src: url('fonts/LilianMar-Regular.ttf')  format("truetype"),
+         url('fonts/LilianMar-Regular.otf')  format("opentype"),
+         url('fonts/LilianMar-Regular.woff') format('woff');
+}
+
+p {
+    font-family: 'LilianMar', sans-serif;
+    font-size: 150%;
+}
+code, pre {
+	font-family: 'Inconsolata', 'Courier New', monospace;
+}
