@@ -11,6 +11,10 @@
 - But I didn't want to pay a license for Calligraphr, and I wanted to build/hack on my own tool.
 - So I rescued the dead open-source project [Fontify](https://github.com/fontify/fontify/), now hosted at [https://github.com/Naereen/fontify/](https://github.com/Naereen/fontify/). Before working on it, it gave this font, [`LilianFeb2-Regular.ttf`](css/fonts/LilianFeb2-Regular.ttf), and now after improving all what I wanted to do, it gave [`LilianMar-Regular.ttf`](css/fonts/LilianMar-Regular.ttf) (see in the webpage for a demo).
 
+## Other examples
+- See [this discussion](https://github.com/Naereen/slides/issues/6#issuecomment-370741926) explaining how to use a custom font for only a part of a Beamer-LaTeX slides document.
+- See [this example](https://perso.crans.org/besson/publis/latex/test_handwritten_font_with_fontify.pdf) showing a complete demo of using a custom font in a LaTeX document.
+
 ---
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/My-Own-HandWriting-Font.svg)](https://github.com/Naereen/My-Own-HandWriting-Font/blob/master/LICENSE)
