@@ -7,7 +7,7 @@
          /* url('fonts/LilianFeb-Regular.woff') format('woff'); */
 }
 
-p {
+p, textarea {
     font-family: 'LilianFeb', sans-serif;
     font-size: 150%;
 }

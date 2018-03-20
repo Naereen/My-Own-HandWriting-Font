@@ -1,4 +1,4 @@
-p {
+p, textarea {
     font-family: sans-serif;
 }
 code, pre {

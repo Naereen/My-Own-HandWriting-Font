@@ -1,6 +1,6 @@
 @import url('//fonts.googleapis.com/css?family=Ubuntu');
 
-p {
+p, textarea {
     font-family: 'Ubuntu', Tahoma, sans-serif;
 }
 code, pre {
